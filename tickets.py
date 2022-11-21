@@ -1,6 +1,4 @@
-Python 3.9.7 (tags/v3.9.7:1016ef3, Aug 30 2021, 20:19:38) [MSC v.1929 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
->>> # Name: Dylan Gonzalez
+# Name: Dylan Gonzalez
 # Prog Purpose: This program finds the cost of movie tickets
 #	Price for one ticket: $10.99
 #	Sales tax rate: 5.5%
@@ -39,7 +37,7 @@ def display_results():
 	print ('**** CINEMA HOUSE MOVIES ****')
 	print ('Your neighorhood movie house')
 	print ('---------------------')
-	print ('TIckets       $ ' + format (subtotal,'8,2.f'))
+	print ('Tickets       $ ' + format (subtotal,'8,.2f'))
 	print ('Sales Tax     $ ' + str (sales_tax))
 	print ('Total         $ ' + str (total))
 	print ('---------------------')
