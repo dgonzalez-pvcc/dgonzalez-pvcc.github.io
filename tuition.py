@@ -27,7 +27,7 @@ totalowed = 0
 balance = 0
 
 ########## DEFINE PROGRAM FUNTIONS ##########
-def main()
+def main():
     get_user_data()
     perform_calculations()
     display_results()
@@ -39,7 +39,7 @@ def get_user_data():
     scholarshipamt = float(input("Scholarship amount recieved: "))
 def perform_calculatoins():
     global tuitionfee, capitalfee, institutionfee, activityfee, totalowed, balance
-    if inout == 1;
+    if inout == 1:
         tuitionfee = numcredits * RATE_TUITION_IN
         capitalfee = 0
     else:
@@ -51,7 +51,7 @@ def perform_calculatoins():
     totalowed = tuitionfee + capitalfee + institutionfee + activityfee
     balance = totalowed - scholarshipamt
 
-def display_results()
+def display_results():
     print('\n---------------------------------------')
     print('Number of credits : ' + str(numcredits))
     print('-----------------------------------------')
